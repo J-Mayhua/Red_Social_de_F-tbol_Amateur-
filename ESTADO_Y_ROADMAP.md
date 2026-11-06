@@ -1,6 +1,6 @@
 # Estado y roadmap
 
-[← Volver al README](../README.md)
+[← Volver al README](README.md)
 
 **Fuente del estado:** registros internos del proyecto fechados el 2026-10-15 (el servicio de identidad se revisó de nuevo el 2026-11-04). Versión y fecha de este documento: [COMPLETAR].
 

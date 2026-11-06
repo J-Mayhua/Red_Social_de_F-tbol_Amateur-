@@ -50,7 +50,7 @@ FutRed reúne en una sola plataforma:
 
 ### Planificado
 
-Foto de perfil, interfaz renovada de Retos, Amigos, Feed y Perfil, límites de integrantes por equipo y endurecimiento de calidad y seguridad. Detalle en el [roadmap](docs/ESTADO_Y_ROADMAP.md).
+Foto de perfil, interfaz renovada de Retos, Amigos, Feed y Perfil, límites de integrantes por equipo y endurecimiento de calidad y seguridad. Detalle en el [roadmap](ESTADO_Y_ROADMAP.md).
 
 ## Arquitectura
 
@@ -82,7 +82,7 @@ flowchart LR
     A -. "avisos (best-effort)" .-> NTDB
 ```
 
-Más detalle, incluido el flujo de una acción con notificación, en [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md).
+Más detalle, incluido el flujo de una acción con notificación, en [ARQUITECTURA.md](ARQUITECTURA.md).
 
 ## Stack tecnológico
 
@@ -105,7 +105,7 @@ Versiones exactas: [v6].
 
 ## Decisiones técnicas
 
-Resumen de cinco decisiones. El registro completo está en [docs/DECISIONES.md](docs/DECISIONES.md).
+Resumen de cinco decisiones. El registro completo está en [DECISIONES.md](DECISIONES.md).
 
 1. **La seguridad vive en la base de datos.** Elegí políticas de seguridad por fila (RLS) que leen la identidad y el rol desde el JWT, porque así la regla se aplica aunque alguien llame a la API sin pasar por la interfaz. Descarté proteger solo con middleware en la aplicación web, porque duplicaría la regla y dejaría la base expuesta.
 2. **Microservicios con base de datos propia y reglas entre servicios en el BFF.** Cada servicio es dueño de sus datos y no hay consultas cruzadas entre bases. Cuando una regla involucra dos servicios (por ejemplo, "solo amigos al equipo"), se aplica en el BFF. Descarté fusionar bases de datos para poder hacer joins.
@@ -117,7 +117,7 @@ Resumen de cinco decisiones. El registro completo está en [docs/DECISIONES.md](
 
 Enfoque de defensa en profundidad: autenticación con tokens de vida corta y refresh rotativo, control de acceso en la base de datos (RLS) más permisos por rol, validación de entradas, límites de peticiones y protección CSRF. Las credenciales se gestionan fuera del repositorio.
 
-El proyecto está en desarrollo y tuvo una revisión interna de seguridad cuyos hallazgos se están corrigiendo. No ha tenido auditoría externa. Detalle conceptual y política de contacto en [docs/SEGURIDAD.md](docs/SEGURIDAD.md).
+El proyecto está en desarrollo y tuvo una revisión interna de seguridad cuyos hallazgos se están corrigiendo. No ha tenido auditoría externa. Detalle conceptual y política de contacto en [SEGURIDAD.md](SEGURIDAD.md).
 
 ## Calidad y pruebas
 
@@ -126,7 +126,7 @@ El proyecto está en desarrollo y tuvo una revisión interna de seguridad cuyos 
 - La compilación del frontend pasa sin errores.
 - Total de pruebas y cobertura: [20].
 
-Cómo se contó cada cifra y qué falta: [docs/PRUEBAS.md](docs/PRUEBAS.md).
+Cómo se contó cada cifra y qué falta: [PRUEBAS.md](PRUEBAS.md).
 
 ## Capturas de pantalla
 
@@ -167,7 +167,7 @@ Cómo se contó cada cifra y qué falta: [docs/PRUEBAS.md](docs/PRUEBAS.md).
 6. Prueba integral de los cinco servicios.
 7. Monetización, solo con una comunidad activa.
 
-Detalle en [docs/ESTADO_Y_ROADMAP.md](docs/ESTADO_Y_ROADMAP.md).
+Detalle en [ESTADO_Y_ROADMAP.md](ESTADO_Y_ROADMAP.md).
 
 ## Sobre mí y contacto
 

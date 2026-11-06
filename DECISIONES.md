@@ -1,6 +1,6 @@
 # Decisiones técnicas
 
-[← Volver al README](../README.md)
+[← Volver al README](README.md)
 
 Registro de las decisiones de diseño más relevantes. Cada una indica **qué elegí**, **por qué**, **qué descarté** y **el costo asumido**. Explica el razonamiento, no la implementación.
 

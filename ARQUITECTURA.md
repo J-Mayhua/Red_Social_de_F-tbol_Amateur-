@@ -1,6 +1,6 @@
 # Arquitectura
 
-[← Volver al README](../README.md)
+[← Volver al README](README.md)
 
 ## Principios
 

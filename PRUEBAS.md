@@ -1,6 +1,6 @@
 # Calidad y pruebas
 
-[← Volver al README](../README.md)
+[← Volver al README](README.md)
 
 Este documento separa con claridad **qué existe**, **qué se verificó** y **qué falta**. No se presentan cifras que no se hayan podido comprobar.
 

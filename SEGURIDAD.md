@@ -1,6 +1,6 @@
 # Seguridad
 
-[← Volver al README](../README.md)
+[← Volver al README](README.md)
 
 Este documento describe el **enfoque** de seguridad del proyecto a nivel de concepto. No incluye detalles de implementación, configuración ni rutas.
 
