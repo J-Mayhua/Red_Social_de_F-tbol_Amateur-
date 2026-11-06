@@ -6,7 +6,7 @@
 
 > Este repositorio contiene **solo documentación**. El código fuente es privado. AL FINAL SE ENCUENTRAN LAS CAPTURAS DEL PROYECTO
 
-**Documentación detallada:** [Arquitectura](docs/ARQUITECTURA.md) · [Decisiones técnicas](docs/DECISIONES.md) · [Seguridad](docs/SEGURIDAD.md) · [Calidad y pruebas](docs/PRUEBAS.md) · [Estado y roadmap](docs/ESTADO_Y_ROADMAP.md)
+**Documentación detallada:** [Arquitectura](ARQUITECTURA.md) · [Decisiones técnicas](DECISIONES.md) · [Seguridad](SEGURIDAD.md) · [Calidad y pruebas](PRUEBAS.md) · [Estado y roadmap](ESTADO_Y_ROADMAP.md)
 
 ---
 
